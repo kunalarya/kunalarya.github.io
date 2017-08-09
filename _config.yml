@@ -6,7 +6,7 @@
 name: Kunal Arya
 
 # Short bio or description (displayed in the header)
-description: Computer Engineer
+description: 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -54,6 +54,7 @@ baseurl: ""
 #
 
 permalink: /:title/
+excerpt_separator: <!--more-->
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -73,7 +74,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 

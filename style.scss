@@ -20,12 +20,12 @@
 }
 
 html {
-  font-size: 100%;
+  //font-size: 100%;
 }
 
 body {
   background: $white;
-  font: 18px/1.4 $inconsolata;
+  font: 0.9em $inconsolata;
   color: $darkGray;
 }
 
@@ -39,8 +39,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $inconsolata;
   color: $darkerGray;
-  font-weight: bold;
-
+  font-weight: 500;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -51,22 +50,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.1em;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 0.9em;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 0.9em;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 0.9em;
   color: $gray;
 }
 
@@ -109,7 +108,7 @@ em, i {
 }
 
 strong, b {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 img {
@@ -188,11 +187,16 @@ img {
 
 .site-info {
   float: left;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $inconsolata;
+  font-size: 1.0em;
 
   @include mobile {
     float: none;
     display: block;
+    margin-top: 9px;
     margin: 0 auto;
+    font-size: 1.0em;
   }
 }
 
@@ -202,14 +206,14 @@ img {
   cursor: pointer;
   font-family: $inconsolata;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 1.0em;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 1.0em;
 
   @include mobile {
     margin: 3px 0;
@@ -220,13 +224,13 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $inconsolata;
-  font-size: 18px;
+  font-size: 1.0em;
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 1.0em;
   }
 
   a {
@@ -257,13 +261,27 @@ nav {
   border-bottom: none;
 }
 
+.entry {
+  margin-bottom: 1.0em;
+}
+
 .post {
+  h1 > a {
+    font-size: 0.9em;
+    color: $postTitle;
+  }
+
+  .inline-date {
+    font-size: 0.9em;
+    color: $postDate;
+  }
+
   blockquote {
     margin: 0.4em .2em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 1.0em;
     font-style: italic;
   }
 
@@ -273,7 +291,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 1.0em;
   }
 }
 
