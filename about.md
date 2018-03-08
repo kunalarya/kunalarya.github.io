@@ -36,7 +36,7 @@ a variety of functional groups.
 
 # Contact
 
-Feel free to contact me at "me" at this domain dot com.
+Feel free to contact me through github.
 
 # Brief C.V.
 
