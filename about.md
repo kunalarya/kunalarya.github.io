@@ -8,9 +8,8 @@ permalink: /about/
 
 * Google Quantum AI, Quantum Hardware Lab. Software Engineer (2016-Present)
     - Helped the team achieve [quantum supremacy](https://www.nature.com/articles/s41586-019-1666-5).
-    - Worked on software infrastructure for running experiments, helping
-      improve robustness, repetition rate, and supporting a variety of
-        experiments.
+    - Working on software infrastructure for running experiments, helping
+      improve robustness, repetition rate, and supporting a variety of experiments.
 
 * [Aurrion, Inc.](http://www.aurrion.com) *(now Juniper)* across
 a variety of functional groups.
