@@ -4,7 +4,38 @@ title: About
 permalink: /about/
 ---
 
-# Interests
+## Work
+
+* Google Quantum AI, Quantum Hardware Lab. Software Engineer (2016-Present)
+    - Helped the team achieve [quantum supremacy](https://www.nature.com/articles/s41586-019-1666-5).
+    - Worked on software infrastructure for running experiments, helping
+      improve robustness, repetition rate, and supporting a variety of
+        experiments.
+
+* [Aurrion, Inc.](http://www.aurrion.com) *(now Juniper)* across
+a variety of functional groups.
+
+* Helping [Fifth Gait Technologies](http://fifthgait.com/) on
+novel architectures for image processing algorithms for atmospheric distortion
+mitigation.
+
+## Contact
+
+Feel free to contact me through [LinkedIn](https://www.linkedin.com/in/kunal-arya-8aaaa114/).
+
+## Education
+
+* University of California, Santa Barbara. Ph.D. Computer Engineering, Hardware/software Cosynthesis
+
+* University of California, Santa Barbara. M.S. Computer Engineering, focus on Architecture.
+
+* University of California, Santa Cruz. B.S. with Honors. Computer Engineering.
+
+## Interests
+
+* Quantum computing.
+
+* Distributed systems.
 
 * Hardware/software cosynthesis.
 
@@ -14,7 +45,7 @@ permalink: /about/
 
 * Rapid FPGA Development.
 
-# Projects
+## Academic Projects
 
 * EPTSM project at the [Santa Cruz Institute for Particle Physics](http://scipp.ucsc.edu/), a silicon
 calibration system used to measure radiation damage for the 2020
@@ -23,31 +54,6 @@ calibration system used to measure radiation damage for the 2020
 * Hierarchical transaction synthesis, working with [Professor Forrest
 Brewer](http://bears.ece.ucsb.edu/) at UC Santa Barbara.
 
-# Work
-
-* Helping [Fifth Gait Technologies](http://fifthgait.com/) on
-novel architectures for image processing algorithms for atmospheric distortion
-mitigation.
-
-* [Aurrion, Inc.](http://www.aurrion.com) *(now Juniper)* across
-a variety of functional groups.
-
-* Software infrastructure for experiments in the [quantum hardware lab at Google](https://www.technologyreview.com/s/604242/googles-new-chip-is-a-stepping-stone-to-quantum-computing-supremacy/).
-
-# Contact
-
-Feel free to contact me through github.
-
-# Brief C.V.
-
-## Education
-
-* University of California, Santa Cruz. B.S. with Honors. Computer Engineering.
-
-* University of California, Santa Barbara. M.S. Computer Engineering, focus on Architecture.
-
-* University of California, Santa Barbara. Ph.D. Computer Engineering, Hardware/software Cosynthesis
-
-# Interests & Hobbies
+## Personal Interests & Hobbies
 
 I enjoy photography, soccer, typography, music, & cooking.

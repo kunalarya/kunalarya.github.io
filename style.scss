@@ -18,6 +18,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: $eb-garamond;
+  src: url('assets/images/EBGaramond-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $eb-garamond-medium;
+  src: url('assets/images/EBGaramond-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html {
   //font-size: 100%;
@@ -25,7 +37,7 @@ html {
 
 body {
   background: $white;
-  font: 0.9em $inconsolata;
+  font: 0.9em $eb-garamond;
   color: $darkGray;
 }
 
@@ -37,11 +49,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $inconsolata;
+  font-family: $eb-garamond;
   color: $blue;
   font-weight: 900;
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 8px;
   padding: 0;
 
   @include mobile {
@@ -73,7 +85,7 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 8px 0;
 }
 
 a {
@@ -86,7 +98,7 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin: 8px 0;
   padding-left: 30px;
 }
 
@@ -191,7 +203,7 @@ img {
 .site-info {
   float: left;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $inconsolata;
+  font-family: $eb-garamond;
   font-size: 1.0em;
 
   @include mobile {
@@ -207,7 +219,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $inconsolata;
+  font-family: $eb-garamond;
   font-weight: 300;
   font-size: 1.0em;
   letter-spacing: 1px;
@@ -226,7 +238,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $inconsolata;
+  font-family: $eb-garamond;
   font-size: 1.0em;
 
   @include mobile {
@@ -266,6 +278,7 @@ nav {
 
 .entry {
   margin-bottom: 1.0em;
+  line-height: 1.7;
 }
 
 .post {
