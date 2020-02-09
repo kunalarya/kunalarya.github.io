@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1.1em;
+  font-family: $eb-garamond-medium;
   a {
     color: inherit;
   }
@@ -70,7 +71,6 @@ h1 {
 
 h2 {
   font-size: 0.9em;
-  text-decoration: underline;
 }
 
 h3 {
@@ -283,7 +283,8 @@ nav {
 
 .post {
   h1 > a {
-    font-size: 0.9em;
+    font-size: 1.2em;
+    font-family: $eb-garamond-medium;
     color: $postTitle;
   }
 
